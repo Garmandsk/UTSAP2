@@ -12,10 +12,12 @@ int main () {
     cout<<"Daftar Calon Presiden dan Wakil Presiden 2024: "<<endl;    
     cout<<"1. Anies Baswedan dan Muhaimin Iskandar"<<endl;
     cout<<"2. Prabowo Subianto dan Gibran Rakabuming Raka"<<endl;
-    cout<<"3. Ganjar Pranowo dan Mahfud MD"<<endl; cout<<"________________________________________________________________________"<<endl;
+    cout<<"3. Ganjar Pranowo dan Mahfud MD"<<endl; 
     
     cout<<endl<<endl;
-    cout<<"Masukkan Pilihan Presiden Anda: "; cin>>pil; cout<<endl;
+    cout<<"Masukkan Pilihan Presiden Anda: "; cin>>pil;  cout<<"________________________________________________________________________"<<endl<<endl;
+    
+    cout<<"________________________________________________________________________"<<endl<<endl;
     
     //Kondisi Yang Dibutuhkan Untuk Menampilkan Kembali Pilihan Yang Sudah Dipilih Oleh Pengguna
     switch (pil) {
@@ -24,6 +26,8 @@ int main () {
     case 3: cout<<"Pilihan Anda Telah Disimpan."<<endl<<"Pilihan Anda Adalah 3. Ganjar Pranowo dan Mahfud MD"<<endl; break;
     default: cout<<"Tidak Termasuk Dalam Pasangan Capres Dan Cawapres"<<endl;
     }
+    cout<<"________________________________________________________________________"<<endl<<endl;
+    
     
     //Selesai
     return 0;

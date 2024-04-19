@@ -20,10 +20,10 @@ int main () {
     
     //langsung menggunakan else saja karena tidak adanya bentuk kemungkinan yang lain
     else { 
-    cout<<"Jawaban Salah, Coba Lagi..."<<endl; //kurang (;)
+    cout<<"Jawaban Salah, Coba Lagi..."<<endl<<endl; //kurang titik koma (;)
     goto umur;
     }
-    cout<<"Program Selesai";
+    cout<<endl<<"Program Selesai";
     
     return 0;
 }
