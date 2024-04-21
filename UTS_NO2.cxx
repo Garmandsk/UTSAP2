@@ -8,7 +8,8 @@ int main () {
     int pil;
     
     //Tampilan Yang Muncul Guna Pengguna Untuk Memasukkan Capres dan Cawapresnya
-    cout<<"________________________________________________________________________"<<endl;
+   pilihan:
+   system("cls"); cout<<"________________________________________________________________________"<<endl;
     cout<<"Daftar Calon Presiden dan Wakil Presiden 2024: "<<endl;    
     cout<<"1. Anies Baswedan dan Muhaimin Iskandar"<<endl;
     cout<<"2. Prabowo Subianto dan Gibran Rakabuming Raka"<<endl;
@@ -16,7 +17,9 @@ int main () {
     
     cout<<endl<<endl;
     cout<<"Masukkan Pilihan Presiden Anda: "; cin>>pil;  cout<<"________________________________________________________________________"<<endl<<endl;
-    
+    if ((pil != 1)&&(pil != 2)&&(pil != 3)) {
+    goto pilihan;
+    }
     cout<<"________________________________________________________________________"<<endl<<endl;
     
     //Kondisi Yang Dibutuhkan Untuk Menampilkan Kembali Pilihan Yang Sudah Dipilih Oleh Pengguna
